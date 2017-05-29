@@ -37,6 +37,21 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
+li{
+	display:inline;
+	list-style-type:none;
+}
+
+
+li:before{
+content:" > ";
+}
+
+li:first-child:before{
+content:"";	
+}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
