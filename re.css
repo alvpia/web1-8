@@ -56,7 +56,7 @@ overflow:hidden;
 #gnav div.img{
 display:table-cell;
 	vertical-align:middle;
-	background:url(./tea.png) no-repeat;
+	background:url(../tea.png) no-repeat;
 }
 
 div.img#home{background-position:0 0px;}
