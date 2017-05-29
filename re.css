@@ -61,7 +61,17 @@ float:left;
 	list-style-type:none;
 	
 }
-
+#gnav a{
+display:block;
+	padding:10px 0;
+	text-align:center;
+	text-decoration:none;
+	background:darkgreen;
+}
+#gnav a:hover{
+background:lightgreen;
+	color:black;
+}
 #gnav li:first-child{
 border-left:white 1px solid;	
 }
