@@ -75,7 +75,16 @@ background:lightgreen;
 #gnav li:first-child{
 border-left:white 1px solid;	
 }
+#logo li{
+display: table-cell;
+	vertical-align:middle;
+	padding: 0 10px;
+	list-style-type:none;
+}
+#logo img{
 
+width: 100px;
+}
 
 #asdf li:first-child:before{
 content:"";	
