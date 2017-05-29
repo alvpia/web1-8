@@ -57,6 +57,8 @@ overflow:hidden;
 display:table-cell;
 	vertical-align:middle;
 	background:url(../img/tea.png) no-repeat;
+	width:55px;
+	height:48px;
 }
 
 div.img#home{background-position:0 0px;}
