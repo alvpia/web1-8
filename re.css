@@ -53,7 +53,16 @@ content:" > ";
 
 overflow:hidden;
 }
+#gnav div.img{
+display:table-cell;
+	vertical-align:middle;
+	background:url(./tea.png) no-repeat;
+}
 
+#div.img#home{background-position:0 0px;}
+#div.img#con1{background-position:0 -46px;}
+#div.img#con2{background-position:0 -92px;}
+#div.img#help{background-position:0 -148px;}
 #gnav li{
 float:left;
 	width:156px;
